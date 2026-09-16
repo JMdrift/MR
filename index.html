@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="cs" data-theme="trade-blue">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#071522">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Moje Řemeslo">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="app.css">
+  <title>Moje Řemeslo</title>
+</head>
+<body>
+<div id="app-shell">
+  <main id="app-content"></main>
+  <div id="backdrop" hidden></div>
+  <section id="quick-add" hidden aria-label="Rychlé přidání"></section>
+  <nav id="bottom-nav">
+    <button class="nav-item" data-route="dashboard"><span class="nav-icon" data-icon="home"></span><b>Přehled</b></button>
+    <button class="nav-item" data-route="calendar"><span class="nav-icon" data-icon="calendar"></span><b>Kalendář</b></button>
+    <button class="nav-item" data-route="tasks"><span class="nav-icon" data-icon="task"></span><b>Úkoly</b></button>
+    <button class="nav-add" id="quickAddBtn" aria-label="Přidat"><span>+</span></button>
+    <button class="nav-item" data-route="jobs"><span class="nav-icon" data-icon="briefcase"></span><b>Zakázky</b></button>
+    <button class="nav-item" data-route="contacts"><span class="nav-icon" data-icon="users"></span><b>Kontakty</b></button>
+    <button class="nav-item" data-route="offers"><span class="nav-icon" data-icon="offer"></span><b>Nabídky</b></button>
+  </nav>
+</div>
+<div id="modal-root"></div>
+<script src="vendor/jspdf.umd.min.js"></script>
+<script src="vendor/pdf-font.js"></script>
+<script src="offer-pdf.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

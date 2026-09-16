@@ -1,0 +1,10 @@
+{
+  "name": "Moje Řemeslo",
+  "short_name": "Řemeslo",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#06111c",
+  "theme_color": "#071522",
+  "lang": "cs-CZ",
+  "description": "Offline pracovní nástroj pro řemeslníky – kalendář, úkoly, zakázky, archiv, kontakty a cenové nabídky s PDF."
+}
